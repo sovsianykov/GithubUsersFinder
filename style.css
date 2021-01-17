@@ -1,0 +1,55 @@
+.card {
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+
+}
+ img {
+    width: 100%;
+    display: block;
+}
+ .imageholder {
+     width: 100px;
+     height: 100px;
+     overflow: hidden;
+
+ }
+#output {
+    margin: 0 auto;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,140px);
+}
+.item {
+    width: 120px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+    padding: 7px;
+    border: 1px solid rgba(93, 89, 89, 0.8);
+    margin: .2rem;
+    border-radius: 4px;
+}
+.item a {
+    display: block;
+    text-decoration: none;
+    color: #fafaf8;
+    background: firebrick;
+    width: 100px;
+    border-radius: 4px;
+    text-align: center;
+    transition: .7s ease-in-out;
+    margin-top: 10px;
+
+
+}
+.item a:hover {
+    color: #0e0d0d;
+    background: #d7c3c3;
+    cursor: pointer;
+
+
+}
